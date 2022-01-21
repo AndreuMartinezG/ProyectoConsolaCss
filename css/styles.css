@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30em;
+    width: 20em;
+    background-color: lightgrey;
+    border-radius: .5em .5em 3em 3em;
+}
+
+/* Aqui definiremos lo relacionado con la pantalla*/
+
+.pantalla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14em;
+    width: 17.5em;
+
+}
+
+.pantalla-izq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14em;
+    width: 2em;
+    background-color: black;
+    border-radius: 0.5em 0 0 2em;
+}
+
+.powerOn {
+    height: .5em;
+    width: .5em;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.pantalla-cent {
+    height: 14em;
+    width: 13.5em;
+}
+
+.pantalla-cent-up {
+    height: 1em;
+    width: 13.5;
+    background-color: black;
+}
+
+.pantalla-cent-cent {
+    height: 11em;
+    width: 13.5;
+    background-color: grey;
+}
+.pantalla-cent-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 2em;
+    width: 13.5;
+    color:whitesmoke;
+}
+.pantalla-der {
+    height: 14em;
+    width: 2em;
+    background-color: black;
+    border-radius: 0 .5em 2em 0;
+}
+
+/* Aqui modificaremos lo relacionado con el logo */
+
+.nintendoLogo {
+    height: 2em;
+    width: 17.5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 1.5em;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+/* Aqui definiremos lo relacionado con los controles de manejo */
+
+.controlesManejo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    height: 8em;
+    width: 17.5em;
+    background-color: seagreen;
+}
+
+.direccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8em;
+    width: 8.75em;
+    background-color: blanchedalmond;
+}
+
+.botonesAB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8em;
+    width: 8.75em;
+    background-color: blue;
+}
+
+/* Aqui definiremos lo relacionado con los botones y la rejilla inferior */
+
+.controlesGenerales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    width: 17.5em;
+    background-color: red;
+}
+
+.cg-izq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    width: 5.9em;
+    background-color: lime;
+}
+
+.cg-cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    width: 5.7em;
+    background-color: magenta;
+}
+
+.cg-der {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    width: 5.9em;
+    background-color: mediumslateblue;
+}
