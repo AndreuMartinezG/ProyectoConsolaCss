@@ -138,7 +138,13 @@ body {
     justify-content: center;
     height: 8em;
     width: 8.75em;
-    background-color: blanchedalmond;
+
+}
+
+.contenedor-direccion {
+    height: 5.5em;
+    width: 5.5em;
+    background-color: red;
 }
 
 /* Seccion para el diseño de los botones "B" y "A" */
@@ -270,17 +276,6 @@ button.a-btn:active .button_AB {
     border-radius: 0.9em;
 }
   
-.button_top {
-    height: 0.6em;
-    width: 3em;
-    display: flex;
-    box-sizing: border-box;
-    border-radius: 0.9em;
-    background-color: black;
-    transform: translateY(0em);
-    cursor: pointer;
-}
-
 button.select-btn:active .button_top {
     transform: translateY(0);
 }
@@ -315,7 +310,7 @@ button.select-btn:active .button_top {
     box-sizing: border-box;
     border-radius: 0.9em;
     background-color: black;
-    transform: translateY(0em);
+    transform: translateY(0);
 }
 
 button.select-btn:active .button_top {
@@ -327,7 +322,7 @@ button.select-btn:active .button_top {
 }
 
 /* Apartado para el diseño de la rejilla*/
-
+/*
 .cg-der {
     display: flex;
     align-items: center;
@@ -335,4 +330,19 @@ button.select-btn:active .button_top {
     height: 4em;
     width: 5.9em;
     background-color: mediumslateblue;
+    font-size: 10px;
+}*/
+
+.cg-der {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    text-align: center;
+    font-size: 10px;
+    height: 10em;
+    width: 9em;
+    line-height: 8px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0px rgba(93,53,151,0.8);
+    transform: rotate(-10deg);
 }
