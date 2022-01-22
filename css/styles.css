@@ -7,6 +7,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(233, 233, 201);
+    font-family: sans-serif;
 }
 
 .general {
@@ -18,6 +20,7 @@ body {
     width: 20em;
     background-color: lightgrey;
     border-radius: .5em .5em 3em 3em;
+    box-shadow: 10px 10px 10px rgb(49, 46, 46);
 }
 
 /* Aqui definiremos lo relacionado con la pantalla*/
@@ -38,7 +41,7 @@ body {
     height: 14em;
     width: 2em;
     background-color: black;
-    border-radius: 0.5em 0 0 2em;
+   border-radius: 0.5em 0 0 2em; 
 }
 
 .powerOn {
@@ -71,7 +74,7 @@ body {
     background-color: black;
     height: 2em;
     width: 13.5;
-    color:whitesmoke;
+    color:rgb(192, 185, 185);
 }
 .pantalla-der {
     height: 14em;
@@ -85,20 +88,27 @@ body {
 .nintendoLogo {
     height: 2em;
     width: 17.5em;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .logo {
+    font-family: Arial Black; 
     height: 1.5em;
-    width: 10em;
+    width: 9em;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgba(128, 128, 128, 0.315);
     border-radius: 1em;
+    font-weight: bold;
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
 }
 
 /* Aqui definiremos lo relacionado con los controles de manejo */
@@ -130,7 +140,7 @@ body {
     background-color: blue;
 }
 
-/* Aqui definiremos lo relacionado con los botones y la rejilla inferior */
+/* Aqui definiremos lo relacionado con los botones START/SELECT y la rejilla inferior-D */
 
 .controlesGenerales {
     display: flex;
