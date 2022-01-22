@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     height: 30em;
     width: 20em;
-    background-color: lightgrey;
+    background-color: rgb(194, 187, 187);
     border-radius: .5em .5em 3em 3em;
     box-shadow: 10px 10px 10px rgb(49, 46, 46);
 }
@@ -62,11 +62,16 @@ body {
     background-color: black;
 }
 
+/*Aqui esta la pantalla como tal*/
+
 .pantalla-cent-cent {
     height: 11em;
     width: 13.5;
     background-color: grey;
 }
+
+/* Apartado para logo de GAMEBOY COLOR */
+
 .pantalla-cent-down {
     display: flex;
     align-items: center;
@@ -100,7 +105,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(128, 128, 128, 0.315);
+    border: 2px inset rgba(128, 128, 128, 0.315);
     border-radius: 1em;
     font-weight: bold;
     background: #202020; 
@@ -148,6 +153,7 @@ body {
     justify-content: center;
     height: 4em;
     width: 17.5em;
+    font-family: Arial Black;
 
 }
 
@@ -165,23 +171,94 @@ body {
     justify-content: center;
     height: 4em;
     width: 5.7em;
+
 }
+
+/* Boton control SELECT */
 
 .cg-cent-izq {
-    background-color: black;
-    height: .5em;
-    width: 2em;
-    border-radius: 5em;
-    margin-right: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 4em;
+    width: 2.85em;
 }
 
-.cg-cent-der {
-    background-color: black;
-    height: .5em;
-    width: 2em;
-    border-radius: 5em;
-    margin-left: .3em;
+/* From cssbuttons.io by @Voxybuns (hay que dar credito al creador(adaptado)) */
+
+.select-btn {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(194, 187, 187);
+    border-radius: 0.9em;
+
 }
+  
+.button_top {
+    height: 0.6em;
+    width: 3em;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 0.9em;
+    background-color: black;
+    transform: translateY(0em);
+    cursor: pointer;
+
+}
+
+button.select-btn:active .button_top {
+    transform: translateY(0);
+}
+
+.cg-cent-izq-down {
+    font-size: 10px;
+}
+
+/* Boton control START */
+
+.cg-cent-der {
+    height: 4em;
+    width: 2.85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* From cssbuttons.io by @Voxybuns (hay que dar credito al creador(adaptado)) */
+
+.start-btn {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(194, 187, 187);
+    border-radius: 0.9em;
+
+}
+  
+.button_top {
+    height: 0.6em;
+    width: 2.5em;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 0.9em;
+    background-color: black;
+    transform: translateY(0em);
+
+}
+
+button.select-btn:active .button_top {
+    transform: translateY(0);
+}
+
+.cg-cent-der-down {
+    font-size: 10px;
+}
+
+/* Apartado para el diseño de la rejilla*/
 
 .cg-der {
     display: flex;
