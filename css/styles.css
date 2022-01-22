@@ -322,16 +322,6 @@ button.select-btn:active .button_top {
 }
 
 /* Apartado para el diseño de la rejilla*/
-/*
-.cg-der {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4em;
-    width: 5.9em;
-    background-color: mediumslateblue;
-    font-size: 10px;
-}*/
 
 .cg-der {
     display: flex;
