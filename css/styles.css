@@ -18,9 +18,9 @@ body {
     height: 31em;
     width: 20em;
     /*Intentando dar una gama de colores a la consola ya que es GAMEBOY COLOR */
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-                linear-gradient(336deg, rgba(26, 26, 214, 0.8), rgba(0,0,255,0) 70.71%);
+    background: linear-gradient(217deg, rgba(255,0,0), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(26, 26, 214), rgba(0,0,255,0) 70.71%);
     border-radius: .5em .5em 3em 3em;
     box-shadow: 10px 10px 10px rgb(49, 46, 46);
 }
@@ -144,7 +144,63 @@ body {
 .contenedor-direccion {
     height: 5.5em;
     width: 5.5em;
-    background-color: red;
+
+}
+
+#flechas {
+    font-family: Arial;
+    font-size: 15px;
+    left: 1.5em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 2em;
+}
+
+#flechas li {
+    background: #424950;
+    color: #353a3f;
+    height: 1.50em;
+    width: 1.50em;
+    line-height: 1.5em;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px #525961;
+}
+
+
+
+#flechas #arriba {
+    border:1px solid rgba(0,0,0,.3);
+    border-bottom: none;
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,.4), inset 1px 1px 0px 0px rgba(255,255,255,0.15);
+    top: -1.5em;
+}
+
+#flechas #derecha {
+    border:1px solid rgba(0,0,0,.3);
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,.4), inset -1px -1px 1px 0px rgba(255,255,255,0.08);
+    left: 1.5em;
+}
+
+#flechas #abajo {
+    border:1px solid rgba(0,0,0,.3);
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,.4), inset -1px -1px 1px 0px rgba(255,255,255,0.08);
+    top: 1.45em;
+}
+
+#flechas #izquierda {
+    border:1px solid rgba(0,0,0,.3);
+    border-right: none;
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,.4), inset 1px 1px 0px 0px rgba(255,255,255,0.15);
+    left: -1.5em;
 }
 
 /* Seccion para el diseño de los botones "B" y "A" */
@@ -189,13 +245,15 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,.4), inset 1px 1px 0px 0px rgba(255,255,255,0.15);
     border-radius: 50%;
-    background-color: black;
+    background-color: #454a4e;
     transform: translateY(0em);
     font-family: Arial Black;
-    color: grey;
+    color:  #353a3f;
     font-size: 14px;
     cursor: pointer;
+    text-shadow: 1px 1px 1px #525961;
 }
 
 button.b-btn:active .button_AB {
@@ -282,6 +340,7 @@ button.select-btn:active .button_top {
 
 .cg-cent-izq-down {
     font-size: 10px;
+    color: rgba(0,0,0,.3);
 }
 
 /* Boton control START */
@@ -309,7 +368,7 @@ button.select-btn:active .button_top {
     display: flex;
     box-sizing: border-box;
     border-radius: 0.9em;
-    background-color: black;
+    background-color: #353a3f;
     transform: translateY(0);
 }
 
@@ -319,6 +378,7 @@ button.select-btn:active .button_top {
 
 .cg-cent-der-down {
     font-size: 10px;
+    color: rgba(0,0,0,.3);
 }
 
 /* Apartado para el diseño de la rejilla*/
