@@ -402,6 +402,7 @@ button.select-btn:active .button_top {
     border-radius: 0.9em;
     background-color: #353a3f;
     transform: translateY(0);
+    cursor: pointer;
 }
 
 button.select-btn:active .button_top {
