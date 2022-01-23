@@ -5,10 +5,10 @@ Proyecto creado utilizando HTML, CSS y JS.
 Puedes previsualizar el Proyecto haciendo click [aqui](https://andreumartinezg.github.io/ProyectoConsolaCss/)
 [![GameBoy](assets/img/screen.jpg)](https://andreumartinezg.github.io/ProyectoConsolaCss/)
 
-## Indice:
+## 0. Indice:
 
 <ol>
-  <li>Introducción.</li>
+  <li>[Introducción](#1-introducción.).</li>
   <li>Como usar.</li>
   <li>Descripción del Proyecto.</li>
   <li>Diseño.</li>
@@ -18,7 +18,7 @@ Puedes previsualizar el Proyecto haciendo click [aqui](https://andreumartinezg.g
 <ol>
 
   
-## 1.Introducción.
+## 1. Introducción.
 
 En este proyecto he intentado simular con HTML, CSS y JS la consola GAMEBOY Color
 
