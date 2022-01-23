@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+    <div class="intruccion">↓ POWER ON - OFF</div>
+    <div class="cont-BotonOnOff" onclick="powerOn()"></div>
     <!-- Contenedor General de la Consola-->
     <div class="general">
         
@@ -16,15 +17,15 @@
 
         <div class="pantalla">
             <div class="pantalla-izq">
-                <div class="powerOn"></div>
-                <div class="battery"></div>
+                <div id="power"></div>
+                <div class="battery">Power</div>
             </div>
             <div class="pantalla-cent">
                 <div class="pantalla-cent-up"></div>
 
                 <!-- Area de trabajo de la pantalla -->
 
-                <div class="pantalla-cent-cent"></div>
+                <div id="pantalla-cent-cent"></div>
 
                 <!-- Retoques de tipografia para el logo de GAMEBOY COLOR-->
                 <div class="pantalla-cent-down">

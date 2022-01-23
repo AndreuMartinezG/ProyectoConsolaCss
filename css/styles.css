@@ -8,7 +8,19 @@ body {
     justify-content: center;
     background-color: rgb(233, 233, 201);
     font-family: sans-serif;
+    flex-direction: column;
 }
+
+.cont-BotonOnOff {
+    position: relative;
+    left: -6em;
+    height: 0.4em;
+    width: 1em;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+
 
 .general {
     display: flex;
@@ -25,9 +37,6 @@ body {
     box-shadow: 10px 10px 10px rgb(49, 46, 46);
 }
 
-.general:hover {
-    transform: translateY(-0.1em);
-}
 
 /* Aqui definiremos lo relacionado con la pantalla*/
 
@@ -47,14 +56,21 @@ body {
     height: 14em;
     width: 2em;
     background-color: black;
-   border-radius: 0.5em 0 0 2em; 
+    border-radius: 0.5em 0 0 2em;
+    flex-direction: column;
 }
 
-.powerOn {
+#power {
     height: .5em;
     width: .5em;
     border-radius: 50%;
-    background-color: red;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.battery {
+    color: white;
+    font-size: 7px;
 }
 
 .pantalla-cent {
@@ -70,10 +86,14 @@ body {
 
 /*Aqui esta la pantalla de la consola*/
 
-.pantalla-cent-cent {
+#pantalla-cent-cent {
     height: 11em;
-    width: 13.5;
+    width: 13.5em;
     background-color: grey;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 10px #000000;
+
 }
 
 /* Apartado para logo de GAMEBOY COLOR */
@@ -156,6 +176,7 @@ body {
     padding: 0;
     position: relative;
     top: 2em;
+    cursor: pointer;
 }
 
 #flechas li {
