@@ -60,7 +60,7 @@ El proyecto lo he subidividio en varias secciones:
 
 ## 6.Herramientas Utilizadas:
 
--El proyecto se ha realizado esencialmente con la herramienta VisualStudio Code que cuenta con la extension de life server para ir viendo el proceso de construccion mientras se realiza el mismo.
+-El proyecto se ha realizado esencialmente con la herramienta VisualStudio Code que cuenta con la extension de live server para ir viendo el proceso de construccion mientras se realiza el mismo.
 -GitHub para el almacenamiento y el control de lo realizado en el proyecto.
 
 [Subir](#top)
